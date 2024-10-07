@@ -32,7 +32,7 @@ function MenuSide() {
   }, [isShowSideMenu]); // Re-run effect when isShowSideMenu changes
 
   return (
-    <div>
+    <div className={cx("  float-right")}>
       {/* Menu icon for opening the side menu */}
       <div
         className={cx(
