@@ -1,0 +1,10 @@
+.iconMenu {
+  background-color: var(--primary-color);
+}
+.wrapper {
+  transform: translateX(-20rem);
+  transition: transform 0.5s ease-in-out;
+}
+.show {
+  transform: translateX(0);
+}

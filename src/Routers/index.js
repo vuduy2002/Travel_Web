@@ -1,0 +1,88 @@
+import HeaderOnly from "../Layouts/HeaderOnly";
+import routes from "./confixRouters";
+
+import HomePage from "../Pages/homePage";
+// import Login from "../Components/login";
+// import PasswordReset from "../Components/resetpass";
+// import profilePage from "../Pages/profilePage";
+
+// import HomeAdminPage from "../Pages/adminPage/homeAdmin";
+// import CreateEvents from "../Pages/adminPage/createEvents";
+
+// import CreateSchedule from "../Pages/adminPage/createSchedules";
+// import ListEvents from "../Pages/adminPage/listEvents";
+// import ManagementLecturers from "../Pages/adminPage/managementLecturers";
+// import ManagementEventTypes from "../Pages/adminPage/managementEventTypes";
+// import ManagementLocations from "../Pages/adminPage/managementLocations";
+
+// import Report from "../Pages/adminPage/report";
+
+// //lecturer
+// import LecturerCalender from "../Pages/lecturerPage/lecturerCalender";
+// import PrivateEvent from "../Pages/lecturerPage/privateEvent";
+const publicPages = [
+  { path: routes.home, component: HomePage, layout: HeaderOnly },
+  // { path: routes.login, component: Login, layout: null },
+  // { path: routes.resetpass, component: PasswordReset, layout: null },
+
+  // //admin pages
+  // {
+  //   path: routes.homeAdmin,
+  //   roles: "admin",
+  //   component: HomeAdminPage,
+  //   layout: null,
+  // },
+  // {
+  //   path: routes.createEvents,
+  //   roles: "admin",
+  //   component: CreateEvents,
+  //   layout: HeaderOnly,
+  // },
+  // { path: routes.createSchedules, roles: "admin", component: CreateSchedule },
+  // {
+  //   path: routes.listEvents,
+  //   roles: "admin",
+  //   component: ListEvents,
+  //   layout: HeaderOnly,
+  // },
+  // {
+  //   path: routes.managermentLecturers,
+  //   roles: "admin",
+  //   component: ManagementLecturers,
+  //   layout: HeaderOnly,
+  // },
+  // {
+  //   path: routes.managermentEventTypes,
+  //   roles: "admin",
+  //   component: ManagementEventTypes,
+  //   layout: HeaderOnly,
+  // },
+  // {
+  //   path: routes.managementLocations,
+  //   roles: "admin",
+  //   component: ManagementLocations,
+  //   layout: HeaderOnly,
+  // },
+  // { path: routes.report, component: Report, layout: null },
+
+  //teacher pages
+
+  // {
+  //   path: routes.lecturerCalender,
+  //   roles: "lecturer",
+  //   component: LecturerCalender,
+  //   layout: HeaderOnly,
+  // },
+  // { path: routes.profile, component: profilePage, layout: null },
+  // { path: routes.privateEvents, component: PrivateEvent, layout: null },
+
+  // { path: routes.notification, component: Notification },
+  // { path: routes.report, component: Report },
+
+  // { path: '/following', component: Following, layout: null },
+  // { path: '/contact', component: Contact, layout: HeaderOnly },
+];
+
+const privatePages = [];
+
+export { publicPages, privatePages };
