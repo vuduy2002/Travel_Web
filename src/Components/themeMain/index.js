@@ -87,7 +87,7 @@ function ThemeBackground({ title, text, arrImg = [] }) {
   return (
     <div
       className={cx(
-        "w-screen h-screen flex justify-center items-center flex-col "
+        "w-screen min-h-screen flex justify-center items-center flex-col "
       )}
     >
       <div>
