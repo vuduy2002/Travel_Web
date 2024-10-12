@@ -62,26 +62,26 @@ function ThemeBackground({ title, text, arrImg = [] }) {
       themeRef.current[0].classList.add(cx("show"));
     }
 
-    const interval = setInterval(() => {
-      // Hide the current theme
-      if (themeRef.current[currentIndex]) {
-        themeRef.current[currentIndex].classList.remove(cx("show"));
-      }
+    // const interval = setInterval(() => {
+    //   // Hide the current theme
+    //   if (themeRef.current[currentIndex]) {
+    //     themeRef.current[currentIndex].classList.remove(cx("show"));
+    //   }
 
-      // Calculate the next index
-      const nextIndex = (currentIndex + 1) % totalThemes;
+    //   // Calculate the next index
+    //   const nextIndex = (currentIndex + 1) % totalThemes;
 
-      // Show the next theme
-      if (themeRef.current[nextIndex]) {
-        themeRef.current[nextIndex].classList.add(cx("show"));
-      }
+    //   // Show the next theme
+    //   if (themeRef.current[nextIndex]) {
+    //     themeRef.current[nextIndex].classList.add(cx("show"));
+    //   }
 
-      // Update the current index
-      setCurrentIndex(nextIndex);
-    }, 3000);
+    //   // Update the current index
+    //   setCurrentIndex(nextIndex);
+    // }, 3000);
 
-    // Clean up the interval on unmount
-    return () => clearInterval(interval);
+    // // Clean up the interval on unmount
+    // return () => clearInterval(interval);
   }, [currentIndex, arrImg]);
 
   return (

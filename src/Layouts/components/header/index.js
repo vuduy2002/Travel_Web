@@ -20,7 +20,14 @@ function Header() {
       <div className={cx("logo", "flex-1")}>
         <img src={logo} alt="description" className={cx("w-16 h-16")} />
       </div>
-      <div className={cx("menu", "hidden md:block", "flex-1")}>
+      <div
+        className={cx(
+          "menu",
+          "hidden md:block",
+          "flex-1",
+          "flex justify-center"
+        )}
+      >
         <MenuListComposition direction={"row"} />
       </div>
       <div className={cx("search", "hidden md:block", "flex-1")}>

@@ -6,7 +6,7 @@ import ProtectedRoute from "./ProtectedRouter";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App p-1 w-screen">
         <Routes>
           {publicPages.map((route, index) => {
             const Page = route.component;
