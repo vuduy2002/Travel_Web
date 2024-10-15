@@ -29,11 +29,11 @@ function TravelFounder() {
                 width="524"
                 height="120"
                 src="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Greenhouse.png"
-                class="main-image"
+                className="main-image"
                 alt="Title"
                 url="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Greenhouse.png"
                 source="library"
-                srcset="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Greenhouse.png 524w, https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Greenhouse-300x69.png 300w"
+                srcSet="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Greenhouse.png 524w, https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Greenhouse-300x69.png 300w"
                 sizes="(max-width: 524px) 100vw, 524px"
               />
             </div>
@@ -44,11 +44,11 @@ function TravelFounder() {
                 width="588"
                 height="124"
                 src="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/TripAdvisor.png"
-                class="main-image"
+                className="main-image"
                 alt="Title"
                 url="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/TripAdvisor.png"
                 source="library"
-                srcset="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/TripAdvisor.png 588w, https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/TripAdvisor-300x63.png 300w"
+                srcSet="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/TripAdvisor.png 588w, https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/TripAdvisor-300x63.png 300w"
                 sizes="(max-width: 588px) 100vw, 588px"
               />
             </div>
@@ -59,11 +59,11 @@ function TravelFounder() {
                 width="340"
                 height="124"
                 src="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Brex-1.png"
-                class="main-image"
+                className="main-image"
                 alt="Title"
                 url="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Brex-1.png"
                 source="library"
-                srcset="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Brex-1.png 340w, https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Brex-1-300x109.png 300w"
+                srcSet="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Brex-1.png 340w, https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Brex-1-300x109.png 300w"
                 sizes="(max-width: 340px) 100vw, 340px"
               />
             </div>
@@ -74,11 +74,11 @@ function TravelFounder() {
                 width="428"
                 height="104"
                 src="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Calendly.png"
-                class="main-image"
+                className="main-image"
                 alt="Title"
                 url="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Calendly.png"
                 source="library"
-                srcset="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Calendly.png 428w, https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Calendly-300x73.png 300w"
+                srcSet="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Calendly.png 428w, https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Calendly-300x73.png 300w"
                 sizes="(max-width: 428px) 100vw, 428px"
               />
             </div>
@@ -89,11 +89,11 @@ function TravelFounder() {
                 width="320"
                 height="124"
                 src="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Airbnb-1.png"
-                class="main-image"
+                className="main-image"
                 alt="Title"
                 url="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Airbnb-1.png"
                 source="library"
-                srcset="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Airbnb-1.png 320w, https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Airbnb-1-300x116.png 300w"
+                srcSet="https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Airbnb-1.png 320w, https://templatekit.reavation.com/travia/wp-content/uploads/sites/17/2024/07/Airbnb-1-300x116.png 300w"
                 sizes="(max-width: 320px) 100vw, 320px"
               />
             </div>
