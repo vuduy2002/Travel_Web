@@ -64,7 +64,7 @@ const listTour = [
 ];
 function ListTour() {
   return (
-    <div className={cx("wrapper", "px-4 py-16  max-w-screen-xl mx-auto ")}>
+    <div className={cx("wrapper", "px-4 py-24  max-w-screen-xl mx-auto ")}>
       <div>
         <div className={cx("title")}>
           <h1 className={cx("text-3xl mb-2")}>New Favorite Vacation Place</h1>

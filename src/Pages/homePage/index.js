@@ -2,6 +2,7 @@ import classNames from "classnames/bind";
 import style from "./homePage.module.scss";
 import ThemeBackground from "../../Components/themeMain";
 import ListTour from "../../Components/listTour";
+import TravelFounder from "../../Components/travelFounder";
 const cx = classNames.bind(style);
 
 const obHome = {
@@ -16,7 +17,7 @@ const obHome = {
 const title = "Let's Explore the World and Make Your Traveling Easy";
 function HomePage() {
   return (
-    <div className={cx("ThemeBackground", "relative", "w-full")}>
+    <div className={cx("ThemeBackground", "relative", "w-screen")}>
       {/* ThemeBackground */}
       <div>
         <ThemeBackground
@@ -26,10 +27,13 @@ function HomePage() {
         />
       </div>
       {/* List tour */}
-      <div className={cx("w-screen")}>
+      <div className={cx("w-full")}>
         <ListTour />
       </div>
-      <div></div>
+      {/* TravelFounder  */}
+      <div className={cx("w-full")}>
+        <TravelFounder />
+      </div>
       <div></div>
       <div></div>
       <div></div>
